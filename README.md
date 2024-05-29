@@ -6,7 +6,7 @@ for you.
 ## Example usage
 
 ``` yaml
-- uses: waylonwalker/hatch-version-action
+- uses: quality-specialist/hatch-action
 ```
 
 ## Example project
