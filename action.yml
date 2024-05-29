@@ -1,0 +1,17 @@
+name: hatch-version-action
+description: Bumps hatch projects in CI
+inputs: 
+  before-command: 
+    description: 'Command to run before bumping the version.'
+    required: false
+    default: 'cov'
+  publish:
+    description: 'Flag to determine whether to publish the package.'
+    required: false
+    default: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.before-command }}
+    - ${{ inputs.publish }}
