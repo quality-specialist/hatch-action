@@ -1,4 +1,4 @@
-name: hatch-version-action
+name: hatch-action
 description: Bumps hatch projects in CI
 inputs: 
   before-command: 
