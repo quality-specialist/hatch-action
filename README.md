@@ -14,7 +14,7 @@ for you.
 I made an [example project](https://github.com/quality-specialist/hatch-action-demo/actions/workflows/main.yml) with `hatch new` and added this example workflow.
 
 ``` yaml
-name: Use hatch-version-action
+name: Use hatch-action
 
 on:
   push:
